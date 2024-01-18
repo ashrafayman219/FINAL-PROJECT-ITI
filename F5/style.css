@@ -1,0 +1,195 @@
+/* start global */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* end global */
+
+/* start navbar */
+.navbar {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('l.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar .brand {
+    float: left;
+    width: 50%;
+}
+.navbar .links {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    color: rgb(53, 35, 35);
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .links li {
+    display: inline-block;
+    padding: 10px 15px;
+    border-bottom: 2px solid transparent;
+}
+.links a {
+    text-decoration: none;
+    color: black;
+}
+.navbar .links li.active,
+.navbar .links li:hover {
+    color: rgb(12, 109, 96);
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(12, 109, 96);
+}
+.logo{
+    width: 140px;
+    padding-top: 20px;
+}
+/* end navbar */
+
+/* start my framework */
+.cleardix {
+    clear: both;
+}
+/* end my framework */
+
+/* start Geo and sum */
+.geo {
+    position:absolute;
+    top: 120px;
+    left: 680px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: #a89d94 5px 10px;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+}
+.sum {
+    position:absolute;
+    top: 410px;
+    left: 870px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: #a89d94 5px 10px;
+    font-weight: bold;
+}
+.sum2 {
+    position:absolute;
+    width: 38px;
+    top: 422px;
+    left: 792px;
+}
+/* end Geo and sum */
+
+/* start */
+.mylocation1{
+    clear: both;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 35px;
+    width: 75%;
+    height: 350px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #5a5450;
+}
+#hedmap{
+    margin-top: 40px;
+    font-size: 50px;
+    color: #5a5450;
+}
+#hedimg{
+    width: 100px;
+}
+/* end */
+
+/* start contact */
+#contact1 {
+    width: 100%;
+    height: 290px;
+    background-color: rgb(41, 41, 41);
+}
+.d14{
+    width: 65%;
+    height: 200px;;
+    float: left;
+}
+.d16{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+#hrr4{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+.d15{
+    width: 35%;
+    height: 200px;
+    float: left;
+}
+.d17{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(255, 254, 254);
+    margin-left: 20px;
+}
+#hrr5{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+}
+.img20{
+    padding-left: 34px;
+}
+#d19{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-left: 600px;
+}
+#d20{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-left: 660px;
+}
+.icon2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon2 ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+.icon2 ion-icon:hover{
+    color: #ff7200
+}
+#iti1{
+    width: 100px;
+    margin-left: 680px;
+}
+/* end contact */
+
+

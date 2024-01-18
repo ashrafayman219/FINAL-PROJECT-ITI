@@ -1,0 +1,435 @@
+/* start global */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* end global */
+
+/* start navbar */
+.navbar {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('l.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar .brand {
+    float: left;
+    width: 50%;
+}
+.navbar .links {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    color: rgb(53, 35, 35);
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .links li {
+    display: inline-block;
+    padding: 10px 15px;
+    border-bottom: 2px solid transparent;
+}
+.links a {
+    text-decoration: none;
+    color: black;
+}
+.navbar .links li.active,
+.navbar .links li:hover {
+    color: rgb(12, 109, 96);
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(12, 109, 96);
+}
+.logo{
+    width: 140px;
+    padding-top: 20px;
+}
+/* end navbar */
+
+/* start my framework */
+.cleardix {
+    clear: both;
+}
+/* end my framework */
+
+/* start Geo and sum */
+.geo {
+    position:absolute;
+    top: 120px;
+    left: 680px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: #a89d94 5px 10px;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+}
+.sum {
+    position:absolute;
+    top: 410px;
+    left: 870px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: #a89d94 5px 10px;
+    font-weight: bold;
+}
+.sum2 {
+    position:absolute;
+    width: 60px;
+    top: 415px;
+    left: 790px;
+}
+/* end Geo and sum */
+
+/* start coverage */
+.mylocation1{
+    clear: both;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px;
+    width: 75%;
+    height: 600px;
+}
+#gis1{
+    float: left;
+    text-align: center;
+    width: 300px;
+    padding-top: 13px;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+#hed1{
+    padding: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color:#008b8b;
+    border-radius: 20px;
+}
+#hed1:hover{
+    background: #fff;
+    color: #000000;
+    border: solid;
+    border-color: #008b8b;
+}
+#hed1 a{
+    text-decoration: none;
+    color: #000;
+    font-family: cursive;
+    font-weight: bold;
+}
+.label3{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(22, 22, 99);
+}
+#prag1{
+    clear: both;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+/* end coverage */
+
+/* start distribution */
+.mylocation2{
+    clear: both;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px;
+    width: 75%;
+    height: 600px;
+}
+#gis1{
+    float: left;
+    text-align: center;
+    width: 300px;
+    padding-top: 13px;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+#hed2{
+    padding: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color:#ff7f50;
+    border-radius: 20px;
+}
+#hed2:hover{
+    background: #fff;
+    color: #000000;
+    border: solid;
+    border-color: #ff7f50;
+}
+#hed2 a{
+    text-decoration: none;
+    color: #000;
+    font-family: cursive;
+    font-weight: bold;
+}
+.label3{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(22, 22, 99);
+}
+#prag1{
+    clear: both;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+/* end distribution */
+
+/* start delivery */
+.mylocation3{
+    clear: both;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px;
+    width: 75%;
+    height: 500px;
+}
+#gis1{
+    float: left;
+    text-align: center;
+    width: 300px;
+    padding-top: 13px;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+#hed3{
+    padding: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color:#8b008b;
+    border-radius: 20px;
+}
+#hed3:hover{
+    background: #fff;
+    color: #000000;
+    border: solid;
+    border-color: #8b008b;
+}
+#hed3 a{
+    text-decoration: none;
+    color: #000;
+    font-family: cursive;
+    font-weight: bold;
+}
+.label3{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(22, 22, 99);
+}
+#prag1{
+    clear: both;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+/* end delivery */
+
+/* start new branch */
+.mylocation4{
+    clear: both;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px;
+    width: 75%;
+    height: 475px;
+}
+#gis1{
+    float: left;
+    text-align: center;
+    width: 300px;
+    padding-top: 13px;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+#hed4{
+    padding: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color:#ff8c00;
+    border-radius: 20px;
+}
+#hed4:hover{
+    background: #fff;
+    color: #000000;
+    border: solid;
+    border-color: #ff8c00;
+}
+#hed4 a{
+    text-decoration: none;
+    color: #000;
+    font-family: cursive;
+    font-weight: bold;
+}
+.label3{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(22, 22, 99);
+}
+#prag1{
+    clear: both;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+/* end new branch */
+
+/* start behaviors */
+.mylocation5{
+    clear: both;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px;
+    width: 75%;
+    height: 600px;
+}
+#gis1{
+    float: left;
+    text-align: center;
+    width: 300px;
+    padding-top: 13px;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+#hed5{
+    padding: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color:#008000;
+    border-radius: 20px;
+}
+#hed5:hover{
+    background: #fff;
+    color: #000000;
+    border: solid;
+    border-color: #008000;
+}
+#hed5 a{
+    text-decoration: none;
+    color: #000;
+    font-family: cursive;
+    font-weight: bold;
+}
+.label3{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(22, 22, 99);
+}
+#prag1{
+    clear: both;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+/* end behaviors */
+
+/* start contact */
+#contact1 {
+    width: 100%;
+    height: 290px;
+    background-color: rgb(41, 41, 41);
+}
+.d14{
+    width: 65%;
+    height: 200px;;
+    float: left;
+}
+.d16{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+#hrr4{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+.d15{
+    width: 35%;
+    height: 200px;
+    float: left;
+}
+.d17{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(255, 254, 254);
+    margin-left: 20px;
+}
+#hrr5{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+}
+.img20{
+    padding-left: 34px;
+}
+#d19{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-left: 600px;
+}
+#d20{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-left: 660px;
+}
+.icon2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon2 ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+.icon2 ion-icon:hover{
+    color: #ff7200
+}
+#iti1{
+    width: 100px;
+    margin-left: 680px;
+}
+/* end contact */
+
+
